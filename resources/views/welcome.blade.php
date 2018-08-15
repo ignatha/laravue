@@ -14,7 +14,7 @@
     </head>
     <body>
             <div id="app">
-                <Example></Example>
+                <user-table></user-table>
             </div>
         <script type="text/javascript" src="js/app.js"></script>
     </body>

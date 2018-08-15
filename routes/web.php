@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','UserController@index')->name('users');
+Route::get('api/users','UserController@api')->name('users.api');
